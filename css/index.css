@@ -1,0 +1,152 @@
+.swiper-container {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #fff;
+}
+.swiper-wrapper .swiper-slide{
+    background: url('../images/bg.png') no-repeat;
+}
+.up{
+    position: absolute;
+    bottom: 30px;
+    left: 282px;
+}
+.arrow {
+	width: .42rem;
+	height: .49rem;
+	position: absolute;
+	left: 50%;
+	bottom:.56rem;
+	margin-left: -.21rem;
+}
+img{
+    position: absolute;
+}
+.music{
+	width: .38rem;
+	height: .38rem;
+	position: absolute;
+	top: .7rem;
+	right:.5rem;
+	z-index: 100;
+}
+.active{
+	animation: rotate 3s linear infinite;
+}
+@keyframes rotate{
+	from{
+		transform: rotate(0deg);
+	}to{
+		transform: rotate(359deg);
+	}
+}
+
+.one-page img:nth-child(1){
+    width:2.38rem;
+    height:.72rem;
+    left: 50%;
+    top:.4rem;
+    margin-left:-1.69rem;
+}
+   
+.one-page img:nth-child(2){
+    width: 6.32rem;
+    height:4.93rem;
+    top:2.4rem;
+    left: 50%;
+    margin-left:-3.16rem;
+}
+.title{
+	position: absolute;
+	width: 100%;
+	top:1rem;
+	font-size: .34rem;
+	text-align:center;
+	color:#fff;
+}
+.introduce{
+	position: absolute;
+	width: 100%;
+	bottom:1.64rem;
+	color:#fff;
+	padding-left:.6rem ;
+}
+.introduce p{
+	margin: 0;
+	font-size: .32rem;
+}
+.introduce .year{
+	font-size:.38rem;
+}
+.img{
+    width:1.26rem;
+    height:1.26rem;
+    left: .8rem;
+    top:.89rem;
+}
+.two-page img:nth-child(1){
+    width:2.82rem;
+    height:2.82rem;
+    left: 50%;
+    top:3.12rem;
+    margin-left:-1.41rem;
+}
+.two{
+	bottom:3.2rem;
+}
+.three-page img:nth-child(2){
+    width:6.12rem;
+    height:3.28rem;
+    left: 50%;
+    top:4.3rem;
+    margin-left:-3.06rem;
+}
+.three{
+	bottom:1.8rem;
+}
+.four-page img:nth-child(2){
+    width:6.38rem;
+    height:4.96rem;
+    left: 50%;
+    bottom:4.8rem;
+    margin-left:-3.19rem;
+}
+.four{
+	bottom:2rem;
+}
+.five-page img:nth-child(2){
+    width:5.86rem;
+    height:4.82rem;
+    left: 50%;
+    top:4.3rem;
+    margin-left:-2.93rem;
+}
+.five{
+	bottom:2.1rem;
+}
+.six-page img:nth-child(2){
+    width:5.2rem;
+    height:5.14rem;
+    left: 50%;
+    top:4.3rem;
+    margin-left:-2.6rem;
+}
+.six{
+	bottom:1.7rem;
+}
+.seven-page img:nth-child(2){
+    width:5.30rem;
+    height:5.17rem;
+    left: 50%;
+    bottom: 4.8rem;
+    margin-left:-2.65rem;
+}
+.seven{
+	bottom:2.2rem;
+}
+.eight{
+	bottom:1.7rem;
+}
